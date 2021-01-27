@@ -1,3 +1,37 @@
-.App {
+body {
+  background-color: #ecf0f1;
+}
+.hislist {
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+  margin-top: 30px;
+}
+.hislist h1 {
+  margin: 0;
+  padding-bottom: 20px;
   text-align: center;
+}
+.form-control {
+  border-radius: 0;
+}
+
+ul.info-list li {
+  line-height: 30px;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.his-footer {
+  background-color: #f4fce8;
+  margin: 0 -20px -10px -20px;
+  padding: 10px 20px;
+}
+#done-items li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: line-through;
+}
+#done-items li:last-child {
+  border-bottom: none;
 }
